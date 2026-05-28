@@ -1,0 +1,170 @@
+{
+    "id": "quiver",
+    "title": "Quiver",
+    "description": "Quiver for FoundryVTT",
+    "version": "0.25",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13.346"
+    },
+    "license": "LICENSE.txt",
+    "url": "https://github.com/yochaigal/Cairn-FoundryVTT/",
+    "manifest": "https://github.com/yochaigal/Cairn-FoundryVTT/releases/latest/download/system.json",
+    "download": "https://github.com/yochaigal/Cairn-FoundryVTT/releases/download/0.25/system.zip",
+    "authors": [
+        {
+            "name": "yochaigal",
+            "url": "https://yochaigal.itch.io/"
+        },
+        {
+            "name": "Oskar Świda",
+            "url": "https://github.com/oswida"
+        }
+    ],
+    "esmodules": [
+        "module/quiver.js"
+    ],
+    "styles": [
+        "css/quiver.css"
+    ],
+    "packs": [
+        {
+            "name": "armor",
+            "label": "Armor",
+            "path": "packs/armor.db",
+            "type": "Item",
+            "system": "quiver"
+        },
+        {
+            "name": "character-traits",
+            "label": "Character Traits",
+            "path": "packs/character-traits.db",
+            "type": "RollTable",
+            "system": "quiver"
+        },
+        {
+            "name": "expeditionary-gear",
+            "label": "Expeditionary Gear",
+            "path": "packs/expeditionary-gear.db",
+            "type": "Item",
+            "system": "quiver"
+        },
+        {
+            "name": "extra",
+            "label": "Extra",
+            "path": "packs/extra.db",
+            "type": "Item",
+            "system": "quiver"
+        },
+        {
+            "name": "gear-tables",
+            "label": "Gear Tables",
+            "path": "packs/gear-tables.db",
+            "type": "RollTable",
+            "system": "quiver"
+        },
+        {
+            "name": "character-creation-tables-srd",
+            "label": "Character Creation Tables - SRD",
+            "path": "packs/character-creation-tables-srd.db",
+            "type": "RollTable",
+            "system": "quiver"
+        },
+        {
+            "name": "utils",
+            "label": "Utils",
+            "path": "packs/utils.db",
+            "type": "RollTable",
+            "system": "quiver"
+        },
+        {
+            "name": "monsters",
+            "label": "Monsters",
+            "path": "packs/monsters.db",
+            "type": "Actor",
+            "system": "quiver"
+        },
+        {
+            "name": "spellbooks",
+            "label": "Spellbooks",
+            "path": "packs/spellbooks.db",
+            "type": "Item",
+            "system": "quiver"
+        },
+        {
+            "name": "more-spellbooks",
+            "label": "More Spellbooks",
+            "path": "packs/more-spellbooks.db",
+            "type": "Item",
+            "system": "quiver"
+        },
+        {
+            "name": "tools",
+            "label": "Tools",
+            "path": "packs/tools.db",
+            "type": "Item",
+            "system": "quiver"
+        },
+        {
+            "name": "trinkets",
+            "label": "Trinkets",
+            "path": "packs/trinkets.db",
+            "type": "Item",
+            "system": "quiver"
+        },
+        {
+            "name": "weapons",
+            "label": "Weapons",
+            "path": "packs/weapons.db",
+            "type": "Item",
+            "system": "quiver"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Quiver - Items",
+            "sorting": "a",
+            "packs": [
+                "weapons",
+                "trinkets",
+                "armor",
+                "tools",
+                "expeditionary-gear",
+                "extra",
+                "spellbooks",
+                "more-spellbooks",
+                "character-traits"
+            ]
+        },
+        {
+            "name": "Quiver - Actors",
+            "sorting": "a",
+            "packs": [
+                "monsters"
+            ]
+        },
+        {
+            "name": "Quiver - Tables",
+            "sorting": "a",
+            "packs": [
+                "character-creation-tables-srd",
+                "gear-tables",
+                "utils"
+            ]
+        }
+    ],
+    "scripts": [],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+    ],
+    "grid": {
+        "distance": 5,
+        "units": "ft"
+    },
+    "primaryTokenAttribute": "abilities.STR",
+    "secondaryTokenAttribute": "hp"
+}

@@ -1,0 +1,106 @@
+{
+  "Actor": {
+    "types": [
+      "character",
+      "npc"
+    ],
+    "templates": {
+      "actorBase": {
+        "hp": {
+          "value": 6,
+          "max": 6
+        }
+      }
+    },
+    "character": {
+      "templates": [
+        "base",
+        "actorBase"
+      ],
+      "background": "",
+      "biography": "",
+      "deprived": false,
+      "panicked": false,
+      "gold": 0,
+      "containers": [],
+      "features": []
+    },
+    "npc": {
+      "templates": [
+        "base",
+        "actorBase"
+      ],
+      "description": "",
+      "armor": 0,
+      "slots": 0,
+      "features":[]
+    }
+  },
+  "Item": {
+    "types": [
+      "item",
+      "weapon",
+      "armor",
+      "spellbook",
+      "object"
+    ],
+    "templates": {
+      "universal": {
+        "description": "",
+        "weightless": false,
+        "equipped": false,
+        "bulky": false,
+        "cost": 0,
+        "quantity": 1
+      },
+      "withDamage": {
+        "damageFormula": "",
+        "criticalDamage": "",
+        "blast": false
+      },
+      "consumable": {
+        "uses": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "item": {
+      "templates": [
+        "base",
+        "universal",
+        "withDamage",
+        "consumable"
+      ]
+    },
+    "weapon": {
+      "templates": [
+        "base",
+        "universal",
+        "withDamage",
+        "consumable"
+      ]
+    },
+    "armor": {
+      "templates": [
+        "base",
+        "universal",
+        "consumable"
+      ],
+      "armor": 1
+    },
+    "spellbook": {
+      "templates": [
+        "base",
+        "universal"
+      ]
+    },
+    "object": {
+      "templates": [
+        "base",
+        "universal",
+        "consumable"
+      ]
+    }
+  }
+}

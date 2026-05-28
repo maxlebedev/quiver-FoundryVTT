@@ -1,0 +1,128 @@
+{
+  "TYPES.Actor.character": "Player Character",
+  "TYPES.Actor.container": "Container",
+  "TYPES.Actor.npc": "Non-Player Character",
+  "TYPES.Item.armor": "Armor",
+  "TYPES.Item.item": "Item",
+  "TYPES.Item.weapon": "Weapon",
+  "TYPES.Item.spellbook": "Spellbook",
+  "TYPES.Item.object": "Object",
+  "CAIRN.AddFatigue": "Add fatigue",
+  "CAIRN.AddItem": "Add Item",
+  "CAIRN.AddContainer": "Add Container",
+  "CAIRN.AddFeature": "Add Feature",
+  "CAIRN.Armor": "Armor",
+  "CAIRN.Background": "Background",
+  "CAIRN.Blast": "Blast",
+  "CAIRN.BoldMeanEquipped": "(bold means equipped)",
+  "CAIRN.Bulky": "Bulky",
+  "CAIRN.CharacterGenerator": "Generate character",
+  "CAIRN.CharacterRegeneratorConfirm": "Are you sure you want to delete and regenerate this character?",
+  "CAIRN.CharacterRegeneratorTitle": "Delete this character and regenerate?",
+  "CAIRN.Containers": "Containers",
+  "CAIRN.ContainerAlreadyOwned": "Container already owned by someone.",
+  "CAIRN.CreateItem": "Create Item",
+  "CAIRN.CreateContainer": "Create Container",
+  "CAIRN.CreateFeature": "Create Feature",
+  "CAIRN.CriticalDamage": "Critical Dmg.",
+  "CAIRN.Damage": "Damage",
+  "CAIRN.Dead": "Dead",
+  "CAIRN.Deprived": "Deprived",
+  "CAIRN.Description": "Description",
+  "CAIRN.DieOfFate": "Die Of Fate",
+  "CAIRN.DeleteItem": "Delete Item",
+  "CAIRN.EditItem": "Edit Item",
+  "CAIRN.EditFeature": "Edit Feature",  
+  "CAIRN.Equipped": "Equipped",
+  "CAIRN.Fatigue": "Fatigue",
+  "CAIRN.Fail": "Fail",
+  "CAIRN.Features": "Features",
+  "CAIRN.FeaturesInfo": "Additional character traits with some mechanical effect.",
+  "CAIRN.Gold": "Gold",
+  "CAIRN.HitProtection": "HP",
+  "CAIRN.Item": "Item",
+  "CAIRN.Items": "Items",
+  "CAIRN.MaxUses": "Max # of uses",
+  "CAIRN.ModifiedElements": "Modified Elements",
+  "CAIRN.Name": "Name",
+  "CAIRN.NoItemToDelete": "Cannot find Item to delete.",
+  "CAIRN.Notes": "Notes",
+  "CAIRN.Notify": {
+    "MaxSlotsOccupied": "Maximum equipment slots used.",
+    "ConfirmDelete": "Delete"
+  },
+  "CAIRN.Owner": "Owner",
+  "CAIRN.OverburdenByGold": "Character may be overburdened by a gold",
+  "CAIRN.Quantity": "Quantity",
+  "CAIRN.Panicked": "Panicked",
+  "CAIRN.RemoveFatigue": "Remove fatigue",
+  "CAIRN.RegenerateCharacter": "Regenerate",
+  "CAIRN.Rest": "Rest",
+  "CAIRN.RestoreAbilities": "Restore Abilities",
+  "CAIRN.RollDamage": "Roll Damage",
+  "CAIRN.Rolling": "Rolling",
+  "CAIRN.RollingDmgWith": "Rolling damage with",
+  "CAIRN.RollingWithPanic": "Panic",
+  "CAIRN.Role": "Role",
+  "CAIRN.Save": "{key} save",
+  "CAIRN.Scars": "Got a scar",
+  "CAIRN.Settings": {
+    "MaxEquipSlots": {
+      "label": "Equipment Limit",
+      "hint": "Maximum equipment slots for player characters, used for encumbrance tracking."
+    },
+    "UseGoldThreshold": {
+      "label": "Use gold threshold",
+      "hint": "Define number of gold pieces which occupies full inventory slot. Zero means that gold pieces are always petty.",
+      "message": "Gold is counted as an inventory"
+    },
+    "UsePanic": {
+      "label": "Use panic condition",
+      "hint": "Use 2e panic condition for player characters."
+    },
+    "UseItemIcons": {
+      "label": "Show item icons",
+      "hint": "Show icons for some items in inventory to quickly recognize the type."
+    },
+    "UseCairnDiceNotation": {
+      "label": "Use Cairn dice notation",
+      "hint": "Interpret Cairn dice notation like 'd6+d6' as described in the rules."
+    },
+    "ShowGenerateHeader":{
+      "label":"Show regenerate button",
+      "hint": "Show 'Regenerate' button at character sheet header"
+    },
+    "ShowFeatures":{
+      "label":"Show features section",
+      "hint": "Show additional 'feature' list in the character description tab."
+    },
+    "ShowContainerActors": {
+      "label":"Show container actors",
+      "hint": "Show containers on the actor list."
+    },
+    "CharacterInventoryLimit": {
+      "label":"Character equipment limit",
+      "hint": "Equipment limit is defined per character instead of global value."
+    }
+  },
+  "CAIRN.Slots": "Slots",
+  "CAIRN.Spellbook": "Spellbook",
+  "CAIRN.StrSave": "Must pass a STR save",
+  "CAIRN.RollStrSave": "Roll STR save",
+  "CAIRN.Success": "Success",
+  "CAIRN.Type": "Type",
+  "CAIRN.Uses": "Available uses",
+  "CAIRN.UpdateFeature": "Update Feature",
+  "CAIRN.Weapon": "Weapon",
+  "CAIRN.Weightless": "Petty",
+  "CAIRN.ItemAddQuantity": "Add",
+  "CAIRN.ItemEquip": "Equip",
+  "CAIRN.ItemRemoveQuantity": "Remove",
+  "CAIRN.ItemUnequip": "Unequip",
+  "CAIRN.ApplyDamage": "Apply damage",
+  "CAIRN.Cost": "Cost",
+  "CAIRN.SetLimit": "Set limit",
+  "DEX": "DEX",
+  "STR": "STR",
+  "WIL": "WIL"
+}
