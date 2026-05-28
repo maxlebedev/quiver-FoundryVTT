@@ -159,7 +159,7 @@
             "lang": "en",
             "name": "English",
             "path": "lang/en.json"
-        },
+        }
     ],
     "grid": {
         "distance": 5,
